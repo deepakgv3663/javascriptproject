@@ -1,0 +1,81 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+body {
+  background: #f5f6f8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.main-wrapper {
+  padding: 20px 40px;
+}
+
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.card img {
+  object-fit: cover;
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+
+.btn {
+  border-radius: 8px;
+}
+
+
+.carousel img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .main-wrapper {
+    padding: 15px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: contain;
+}
